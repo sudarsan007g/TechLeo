@@ -1,33 +1,42 @@
-# TechLeo
+# 🚀 TechLeo
 
-Official portfolio website of TechLeo for academic project development services.
+**TechLeo** is a professional academic project development platform providing innovative Mini and Final Year projects for engineering students.
 
-## Features
+🌐 Live Website: https://sudarsan007g.github.io/TechLeo/
 
-- Home, Services, Portfolio, About, Contact sections
+---
+
+## 🔥 Services Offered
+
+- 🧪 Mini Projects
+- 🎓 Final Year Projects
+- 📚 IEEE Based Implementations
+- 🔌 IoT & Embedded Systems
+- 🤖 AI / Machine Learning Projects
+- 🌐 Web & Application Development
+- 📝 Complete Report, PPT & Viva Support
+- 💡 Custom Project Idea Development
+
+---
+
+## ✨ Website Features
+
 - Dark futuristic responsive UI
-- Smooth animations and interactive cards
-- Project showcase with filters and detail popups
-- Direct and floating WhatsApp contact buttons
-- GitHub Pages ready static site
+- Smooth animations & motion effects
+- Project showcase with category filters
+- WhatsApp direct contact integration
+- Fully responsive (Mobile + Desktop)
+- GitHub Pages ready deployment
 
-## Project Structure
+---
 
-- `index.html`
-- `style.css`
-- `script.js`
+## 🛠 Tech Stack
 
-## Run Locally
+- HTML5
+- CSS3 (Modern UI Animations)
+- JavaScript (Interactive Components)
+- GitHub Pages (Deployment)
 
-1. Open the project folder in VS Code.
-2. Run a simple server (example):
-   - `python -m http.server 5500 --directory .`
-3. Open `http://127.0.0.1:5500/index.html`
+---
 
-## Deploy to GitHub Pages
-
-1. Push this project to GitHub.
-2. Go to **Settings → Pages**.
-3. Set **Source** to **Deploy from a branch**.
-4. Select **main** and **/ (root)**.
-5. Save and wait 1–2 minutes for the live URL.
+## 📁 Project Structure
