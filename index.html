@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Modern student project portfolio website with dark futuristic design, smooth scrolling, animations, and direct WhatsApp contact."
+    />
+    <meta name="theme-color" content="#070b14" />
+    <title>Student Project Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <ul class="particles" aria-hidden="true">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <header class="header">
+      <nav class="navbar container" aria-label="Primary">
+        <a href="#home" class="brand">Tech<span>Leo</span></a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Toggle menu"
+          aria-controls="navLinks"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div data-aos="fade-up" data-aos-duration="900">
+            <p class="eyebrow">Project Development &amp; Academic Solutions</p>
+            <h1>
+              Innovative Final Year &amp; Mini Projects for
+              <span class="hero-glow">Students</span>
+            </h1>
+            <p class="hero-subtext typing-line" id="typingText" aria-live="polite"></p>
+            <div class="hero-actions">
+              <a href="#portfolio" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Get a Quote</a>
+            </div>
+            <a href="#services" class="scroll-down" aria-label="Scroll to services">
+              <span></span>
+            </a>
+          </div>
+          <div class="hero-card" data-aos="zoom-in" data-aos-delay="150">
+            <h3>Why Choose TechLeo?</h3>
+            <ul class="choose-list">
+              <li>
+                <span class="choose-icon" aria-hidden="true">✔</span>
+                <span>100% Working Models</span>
+              </li>
+              <li>
+                <span class="choose-icon" aria-hidden="true">✔</span>
+                <span>Complete Source Code &amp; Documentation</span>
+              </li>
+              <li>
+                <span class="choose-icon" aria-hidden="true">✔</span>
+                <span>Fast WhatsApp Support</span>
+              </li>
+              <li>
+                <span class="choose-icon" aria-hidden="true">✔</span>
+                <span>Latest 2026 Trending Domains</span>
+              </li>
+              <li>
+                <span class="choose-icon" aria-hidden="true">✔</span>
+                <span>Custom Project Development</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <h2 data-aos="fade-up">Services</h2>
+          <div class="cards-3 services-grid">
+            <article class="card" data-aos="fade-up" data-aos-delay="0">
+              <div class="service-icon">🧪</div>
+              <h3>Mini Projects</h3>
+              <p>Compact, practical mini projects with circuit/code explanation.</p>
+            </article>
+            <article class="card" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-icon">🎓</div>
+              <h3>Final Year Projects</h3>
+              <p>End-to-end final year project planning, development, and guidance.</p>
+            </article>
+            <article class="card" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-icon">📚</div>
+              <h3>IEEE Projects</h3>
+              <p>Research-oriented implementations aligned with IEEE concepts.</p>
+            </article>
+            <article class="card" data-aos="fade-up" data-aos-delay="0">
+              <div class="service-icon">🔌</div>
+              <h3>IoT &amp; Embedded Systems</h3>
+              <p>Sensor-driven and microcontroller solutions with real-time data flow.</p>
+            </article>
+            <article class="card" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-icon">🤖</div>
+              <h3>AI / Machine Learning</h3>
+              <p>Model building, training, testing, and deployment-ready demos.</p>
+            </article>
+            <article class="card" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-icon">📝</div>
+              <h3>Report + PPT + Documentation</h3>
+              <p>Complete synopsis, report, viva points, and presentation deck.</p>
+            </article>
+          </div>
+
+          <h3 class="subsection-title" data-aos="fade-up">Premium &amp; Add-On Services</h3>
+          <div class="cards-3 services-grid premium-services">
+            <article class="card" data-aos="fade-up" data-aos-delay="0">
+              <div class="service-icon">💡</div>
+              <h3>Project Idea Consultation &amp; Development</h3>
+              <p>
+                Share your idea — we refine, structure, and build it into a complete
+                academic project.
+              </p>
+            </article>
+            <article class="card" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-icon">🌐</div>
+              <h3>Web &amp; Application Development Projects</h3>
+              <p>
+                Full-stack web or app development with modern UI, backend logic, and
+                working deployment demo.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <div class="container">
+          <h2 data-aos="fade-up">Portfolio</h2>
+          <div class="filter-row" data-aos="fade-up" data-aos-delay="80">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ai">AI</button>
+            <button class="filter-btn" data-filter="iot">IoT</button>
+            <button class="filter-btn" data-filter="ieee">IEEE</button>
+          </div>
+          <div class="cards-3 portfolio-grid">
+            <article class="card project-card" data-category="iot" data-aos="fade-up" data-aos-delay="0">
+              <div class="project-thumb">🧠</div>
+              <h3>Deepfake Detection (2025)</h3>
+              <p>Tech: CNN, EfficientNetB0, Flask</p>
+              <button class="btn btn-secondary project-btn" data-title="Deepfake Detection (2025)" data-tech="CNN, EfficientNetB0, Flask" data-desc="Built a deepfake detection system using CNN with EfficientNetB0, achieving 95.5% accuracy and enabling real-time analysis via a Flask-based web interface.">View Details</button>
+            </article>
+            <article class="card project-card" data-category="iot" data-aos="fade-up" data-aos-delay="100">
+              <div class="project-thumb">🅿️</div>
+              <h3>Smart Parking System (IoT, 2025)</h3>
+              <p>Tech: Arduino, IR Sensors, LCD</p>
+              <button class="btn btn-secondary project-btn" data-title="Smart Parking System (IoT, 2025)" data-tech="Arduino, IR Sensors, LCD" data-desc="Built a real-time parking management system using Arduino, IR sensors, and LCD to detect vehicles and display availability, reducing congestion and optimizing space utilization.">View Details</button>
+            </article>
+            <article class="card project-card" data-category="ai" data-aos="fade-up" data-aos-delay="200">
+              <div class="project-thumb">📷</div>
+              <h3>Attendance Management Using Face Recognition (2024)</h3>
+              <p>Tech: Python, OpenCV, Face Recognition</p>
+              <button class="btn btn-secondary project-btn" data-title="Attendance Management Using Face Recognition (2024)" data-tech="Python, OpenCV, Face Recognition" data-desc="Developed an AI-based attendance system with Python, OpenCV, and face recognition libraries, enabling real-time detection and automated attendance logging.">View Details</button>
+            </article>
+            <article class="card project-card" data-category="ai" data-aos="fade-up" data-aos-delay="0">
+              <div class="project-thumb">🎵</div>
+              <h3>AI Music Generation Using GANs (2023)</h3>
+              <p>Tech: GANs, MIDI Datasets</p>
+              <button class="btn btn-secondary project-btn" data-title="AI Music Generation Using GANs (2023)" data-tech="GANs, MIDI Datasets" data-desc="Trained GAN models on MIDI datasets to generate original instrumental music, improving coherence and diversity through training optimization.">View Details</button>
+            </article>
+            <article class="card project-card" data-category="ai" data-aos="fade-up" data-aos-delay="100">
+              <div class="project-thumb">🖼️</div>
+              <h3>Text to Image Generator (Groq, 2022)</h3>
+              <p>Tech: Groq, Text-to-Image Models</p>
+              <button class="btn btn-secondary project-btn" data-title="Text to Image Generator (Groq, 2022)" data-tech="Groq, Text-to-Image Models" data-desc="Implemented a text-to-image generator using Groq acceleration to convert natural language prompts into images with improved quality and relevance.">View Details</button>
+            </article>
+            <article class="card project-card" data-category="iot" data-aos="fade-up" data-aos-delay="200">
+              <div class="project-thumb">🕶️</div>
+              <h3>Smart Glass for the Visually Impaired (IoT, 2019)</h3>
+              <p>Tech: Arduino, Ultrasonic Sensors</p>
+              <button class="btn btn-secondary project-btn" data-title="Smart Glass for the Visually Impaired (IoT, 2019)" data-tech="Arduino, Ultrasonic Sensors" data-desc="Created smart glasses using Arduino and ultrasonic sensors to detect obstacles and alert users via vibration or sound for safer navigation.">View Details</button>
+            </article>
+            <article class="card project-card" data-category="iot" data-aos="fade-up" data-aos-delay="0">
+              <div class="project-thumb">⚡</div>
+              <h3>Smart Energy Meter</h3>
+              <p>Tech: Embedded Systems, Power Monitoring</p>
+              <button class="btn btn-secondary project-btn" data-title="Smart Energy Meter" data-tech="Embedded Systems, Sensors" data-desc="Embedded system project for real-time power consumption monitoring with live usage insights.">View Details</button>
+            </article>
+            <article class="card project-card" data-category="iot" data-aos="fade-up" data-aos-delay="100">
+              <div class="project-thumb">🚗</div>
+              <h3>Smart Parking System (Embedded)</h3>
+              <p>Tech: Embedded Systems, Slot Monitoring</p>
+              <button class="btn btn-secondary project-btn" data-title="Smart Parking System (Embedded)" data-tech="Embedded Systems, Sensors" data-desc="Embedded system project for automatic parking slot detection and monitoring.">View Details</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2 data-aos="fade-up">How It Works</h2>
+          <div class="how-grid">
+            <article class="card how-card" data-aos="fade-up" data-aos-delay="0">
+              <div class="how-step">1️⃣</div>
+              <h3>Requirement Discussion</h3>
+            </article>
+            <article class="card how-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="how-step">2️⃣</div>
+              <h3>Development &amp; Testing</h3>
+            </article>
+            <article class="card how-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="how-step">3️⃣</div>
+              <h3>Final Delivery &amp; Support</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div data-aos="fade-right">
+            <h2>About</h2>
+            <p>
+              I develop practical, real-time academic projects for students from all
+              branches and educational backgrounds. My focus is innovation, structured
+              documentation, and hands-on implementation to ensure successful project
+              submission and confident presentations.
+            </p>
+            <div class="counter-row">
+              <div class="counter-card">
+                <h3><span class="counter" data-target="20">0</span>+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="counter-card">
+                <h3><span class="counter" data-target="2">0</span>+</h3>
+                <p>Years Experience</p>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="timeline-item">
+                <h4>Requirement Discussion</h4>
+                <p>Understand branch, domain, and preferred tech stack.</p>
+              </div>
+              <div class="timeline-item">
+                <h4>Build &amp; Demo</h4>
+                <p>Develop project with modules, testing, and practical explanation.</p>
+              </div>
+              <div class="timeline-item">
+                <h4>Final Delivery</h4>
+                <p>Source code + report + PPT + viva preparation support.</p>
+              </div>
+            </div>
+          </div>
+          <div class="profile-card" data-aos="fade-left">
+            <div class="profile-photo" aria-hidden="true">TL</div>
+            <h3>Technology Domains</h3>
+            <div class="tags">
+              <span>Python</span>
+              <span>Embedded C</span>
+              <span>OpenCV</span>
+              <span>TensorFlow</span>
+              <span>Arduino</span>
+              <span>ESP32</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-box" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Share your requirement and get a quick response with project options.</p>
+          <form id="contactForm" class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" required placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required placeholder="you@example.com" />
+            </label>
+            <label>
+              Project Type
+              <select name="projectType" required>
+                <option value="">Select project type</option>
+                <option>Mini Project</option>
+                <option>Final Year Project</option>
+                <option>IEEE Project</option>
+                <option>IoT / Embedded Project</option>
+                <option>AI / ML Project</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" required placeholder="Tell me your idea, branch, and deadline"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary ripple-btn">Send Inquiry</button>
+          </form>
+          <a
+            href="https://wa.me/918220187985?text=Hello%20I%20need%20a%20project"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="whatsapp-btn"
+            >Contact on WhatsApp</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" id="projectModal" aria-hidden="true">
+      <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" id="modalClose" aria-label="Close project details">×</button>
+        <h3 id="modalTitle">Project Title</h3>
+        <p id="modalTech"></p>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+
+    <div class="thank-you-popup" id="thankYouPopup" aria-hidden="true">
+      <p>Thank you! Your message has been captured successfully.</p>
+    </div>
+
+    <a
+      href="https://wa.me/918220187985?text=Hello%20I%20need%20a%20project"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="floating-whatsapp"
+      aria-label="Chat on WhatsApp"
+      ><img
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+        alt=""
+        aria-hidden="true"
+      />
+      <span>Chat on WhatsApp</span></a
+    >
+
+    <footer class="footer">
+      <p>© <span id="currentYear">2026</span> Student Project Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 900,
+        easing: "ease-out-cubic",
+        once: true,
+      });
+    </script>
+  </body>
+</html>
