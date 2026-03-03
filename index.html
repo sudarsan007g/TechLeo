@@ -382,23 +382,30 @@
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 <script>
-  (function() {
+  document.addEventListener("DOMContentLoaded", function () {
+
     emailjs.init("BIoUd52g9IDy16IRS");
-  })();
 
-  document.getElementById("contactForm").addEventListener("submit", function(event) {
-    event.preventDefault();
+    const form = document.getElementById("contactForm");
 
-    emailjs.sendForm("service_zmuximl", "template_fyhcw0m", this)
-      .then(function() {
-        alert("Message Sent Successfully!");
-        document.getElementById("contactForm").reset();
-      }, function(error) {
-        alert("Failed to send message.");
-        console.log(error);
-      });
+    if (!form) {
+      console.error("Form not found");
+      return;
+    }
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      emailjs.sendForm("service_zmuximl", "template_fyhcw0m", form)
+        .then(function () {
+          alert("Message Sent Successfully!");
+          form.reset();
+        })
+        .catch(function (error) {
+          console.error("EmailJS Error:", error);
+          alert("Failed to send message");
+        });
+    });
+
   });
 </script>
-
-</body>
-</html>
