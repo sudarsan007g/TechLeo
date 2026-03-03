@@ -195,20 +195,6 @@ const counterObserver = new IntersectionObserver(
 
 counters.forEach((counter) => counterObserver.observe(counter));
 
-contactForm?.addEventListener("submit", (event) => {
-  event.preventDefault();
-  contactForm.reset();
-  if (!thankYouPopup) {
-    return;
-  }
-  thankYouPopup.classList.add("show");
-  thankYouPopup.setAttribute("aria-hidden", "false");
-
-  setTimeout(() => {
-    thankYouPopup.classList.remove("show");
-    thankYouPopup.setAttribute("aria-hidden", "true");
-  }, 2400);
-});
 
 rippleButtons.forEach((button) => {
   button.addEventListener("click", (event) => {
